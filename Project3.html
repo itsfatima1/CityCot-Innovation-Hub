@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+body{
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+}
+body h1{
+  background-color: #1F316F;
+  text-align: center;
+  color: #FCFAEE;
+  padding: 10px;
+  margin: 0px;
+  font-size: 23px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body nav ul{
+    list-style: none;
+    margin: 0px;
+    text-align: center;
+    padding: 6px;
+    background-color: #282d38;
+
+}
+body nav ul li {
+    display: inline;
+    font-size: 20px;
+    margin: 25px;
+}
+body nav ul li a {
+  color: #FCFAEE;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}     
+body h2{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  margin-top: 50px;
+}
+body p{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  margin-top: 0px;
+  padding: 0px;
+}
+body h3{
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20;
+  margin-top: 60px;
+  margin-left: 125px;
+}
+table{
+   border-collapse: collapse;
+    border-width: 1px;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+th {
+  background-color: #1F316F;
+  color: #FCFAEE;
+}
+tr:hover{
+    background-color: #b2c8f5;
+    cursor: pointer;
+}
+body h2.header2{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 50px;
+  padding: 0px;
+}
+body p.paragraph2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0px;
+}
+.container {
+ justify-content: center;
+align-items: center;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 15px;
+width: 70%;
+height: auto;
+margin-bottom: 70px;
+margin-left: auto;
+margin-right: auto;
+background-color: white;
+text-align: center;
+}
+.section2 {
+background-color: #fff;
+box-shadow: #1F316F;
+padding: 15px;
+border: 1px solid #ddd;
+border-radius: 8px;
+}
+.section2 img {
+width: 40%;
+height:auto;
+margin-top: 0px;
+margin-bottom: 0px;
+border-radius: 8px;
+text-align: center;
+}
+.section2 h2{
+margin-right: 80px;
+margin-left: 50px;
+margin-bottom: 8px;
+margin-top: 0px;
+color: #333;
+text-align: center;
+font-size: 16px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact {
+  width: 50%;
+  height: 50%;
+}
+.header4 {
+  background-color: #1F316F;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 8px;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #fff;
+}
+.form-group{
+  margin-left: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+button{
+background-color: #b2c8f5;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding:3px;
+margin: 8px;
+border-width: 0px;
+height: 25px;
+width: 100px;
+cursor: pointer;
+}
+button:hover{
+  background-color: #1F316F;
+}
+footer {
+ text-align: center;
+ padding: 7px;
+ margin-top: 20px;
+ background-color: #1F316F;
+ color: #FCFAEE;
+           
+}
+    </style>
+</head>
+<body>
+
+    <h1> HTML Learning Project </h1>   
+
+    <nav>
+    <ul>
+   <li><a href="#"> Home </a></li>
+   <li><a href="#"> Projects </a></li>
+   <li><a href="#"> Testimonials </a></li>
+   <li><a href="#"> Contact </a></li>
+    </ul>
+    </nav> 
+
+    <h2> About The Project </h2>
+
+    <p> This project helps students learn HTML and CSS basics by building a functional web page. </p>
+
+    <h3> Project List </h3>
+
+    <table border="3">
+          <tr>
+            <th> Project Name </th>
+            <th> Description </th>
+            <th> State </th>
+          </tr>
+          <tr>
+            <td> Portfolio Website </td>
+            <td> Showcase your projects and skills.</td>
+            <td> Completed </td>
+          </tr>
+          <tr>
+            <td> Personal Blog </td>
+            <td> A simple blogging platform. </td>
+            <td> In Progress </td>
+          </tr>
+    </table>
+
+
+    <h2 class="header2"> Testimonials </h2>
+    <p class="paragraph2"> Challenge: Recreate this grid layout of testimonials using HTML and CSS</p>
+
+    <div class="container">
+    <div class="section2">
+        <img src="somtic.jpg">
+        <h2>Reviewer One</h2>
+        <p>"This project taught me a lot about HTML and CSS. I feel much more confident now!"</p>
+    </div>
+    <div class="section2">
+      <img src="somtic.jpg">
+      <h2>Reviewer Two</h2>
+      <p>"A challenging but rewarding experience. Highly recommended for beginners."</p>
+    </div>
+    <div class="section2">
+      <img src="somtic.jpg">
+      <h2>Reviewer Three</h2>
+      <p>"I was able to create a functinal web page by the end of this project!" </p>
+    </div>
+    </div>
+
+    <section id="contact">
+  
+      <h1 class="header4">Contact Me</h1>
+        
+        <form action="#" method="post">
+           
+          <div class="form-group">
+           
+            <label for="name"> Full Name: </label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+            <label for="email"> Email: </label><br>
+            <input type="text" id="email" email="email" placeholder="Enter your email"><br><br>
+            <label for="message"> Message: </label><br>
+            <textarea id="message" rows="3" cols="40" placeholder="Write here..."></textarea><br>
+            <button type="submit"> Send </button>
+        </form>
+          </div>
+
+   <footer>
+    @2024 Somtic. All rights reserved.
+   </footer>
+    
+
+</body>
+</html>
