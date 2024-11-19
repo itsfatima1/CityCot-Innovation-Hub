@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Registration</title>
+</head>
+<body>
+
+
+    <div class="form-box">
+
+        <div class="Logo">
+            <img src="digital-identity.png" alt="logo" id="logo">
+        </div>
+    
+        
+        <h2> Student Registration </h2>
+
+        <div class="reg-box">
+        <label for="name"> Student Name: </label><br>
+        <input type="text" id="name" name="name" placeholder="Enter Your Name"><br><br>
+        
+        <label for="age"> Age: </label><br>
+        <input type="number" id="age" name="age" placeholder="Enter Your Age"><br><br>
+        
+        <label for="email"> Email: </label><br>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email"><br><br>
+
+        <label for="number"> Phone Number: </label><br>
+        <input type="text" id="number" name="number" placeholder="Enter Your Number"><br><br>
+        
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        </select><br><br>
+
+        <label for="course">Course:</label><br>
+        <select id="course" name="course">
+        <option value="html">HTML & CSS</option>
+        <option value="javascript">JavaScript</option>
+        <option value="php">PHP</option>
+        <option value="python">Python</option>
+        <option value="C+">C+</option>
+        </select><br><br>
+        </div>
+
+        <button type="submit"> Send </button><br><br>
+
+        <h2 class="heading2"> Registered Students </h2>
+        <table border="1px">
+            <tr>
+                <th>Student Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+                <th>Gender</th>
+                <th>Course</th>
+            </tr>
+            <tr>
+                <td>Fatima Mahamud</td>
+                <td>22</td>
+                <td>fay01m@gmail.com</td>
+                <td>+252 90587****</td>
+                <td>Female</td>
+                <td>HTML & CSS</td>
+            </tr>
+            <tr>
+                <td>Najma Mahad</td>
+                <td>19</td>
+                <td>najma123@gmail.com</td>
+                <td>+252 90452****</td>
+                <td>Female</td>
+                <td>Python</td>
+            </tr>
+            <tr>
+                <td>Ahmed Yasin</td>
+                <td>20</td>
+                <td>ahmed303@gmail.com</td>
+                <td>+252 90734****</td>
+                <td>Male</td>
+                <td>PHP</td>
+            </tr>
+            <tr>
+                <td>Sacdiya Abdullahi</td>
+                <td>18</td>
+                <td>sacdiy2093@gmail.com</td>
+                <td>+252 90646****</td>
+                <td>Female</td>
+                <td>JavaScript</td>
+            </tr>
+            <tr>
+                <td>Mohamed Ali</td>
+                <td>23</td>
+                <td>mohamedali@gmail.com</td>
+                <td>+252 90748****</td>
+                <td>Male</td>
+                <td>HTML & CSS</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
