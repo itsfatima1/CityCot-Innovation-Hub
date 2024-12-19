@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation Registration</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/97cdf934e8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+     <!-- Blood Donation Registration Form -->
+           
+     <div class="card">
+
+        <div class="card-header">
+            <h4> Blood Donation Registration </h4>
+        </div>
+
+        <div class="card-body">
+
+            <form class="BloodDonationForm">
+               
+                <!--First Row-->
+
+                <div class="row g-3 mb-4">
+                 <div class="col-md-4">
+                  <label for="name">Full Name</label>
+                   <div class="input-group">
+                   <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+                  <input type="text" class="form-control" placeholder="Enter Full Name" required>
+                 </div>
+                </div>
+
+                <div class="col-md-4">
+                    <label for="name">Phone Number</label>
+                     <div class="input-group">
+                     <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
+                    <input type="text" class="form-control" placeholder="Enter Number" required>
+                   </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <label for="gender">Blood Group</label>
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fa-solid fa-droplet"></i></span>
+                        <select id="bloodgroup" class="form-select">
+                            <option>Choose A Type</option>
+                            <option>A+</option>
+                            <option>A-</option>
+                            <option>B-</option>
+                            <option>B+</option>
+                            <option>O-</option>
+                            <option>O+</option>
+                            <option>AB-</option>
+                            <option>AB+</option>
+                        </select>
+                    </div>
+                  </div>
+                  </div>
+
+                <!--Second Row-->
+                 
+                <div class="row g-3 mb-4">
+
+                    <div class="col-md-4">
+                        <label for="name">Age</label>
+                         <div class="input-group">
+                         <span class="input-group-text"><i class="fa-solid fa-arrow-up-9-1"></i></span>
+                        <input type="number" class="form-control" placeholder="Enter Age" required>
+                       </div>
+                      </div>
+
+                      <div class="col-md-4">
+                        <label for="gender">Gender</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fa-solid fa-person-half-dress"></i></span>
+                            <select id="Gender" class="form-select">
+                                <option>Gender</option>
+                                <option>Female</option>
+                                <option>Male</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="name">Donation Date</label>
+                         <div class="input-group">
+                         <span class="input-group-text"><i class="fa-solid fa-calendar-days"></i></span>
+                        <input type="date" class="form-control" placeholder="mm/dd/yyyy" required>
+                       </div>
+                      </div>
+                </div>
+
+                 <!--Third Row-->
+
+                <div class="row g-3 mb-4">
+                    <div class="col-md-4">
+                        <label for="name">Address</label>
+                         <div class="input-group">
+                         <span class="input-group-text"><i class="fa-solid fa-location-dot"></i></span>
+                        <input type="text" class="form-control" placeholder="Enter Address" required>
+                       </div>
+                      </div>
+
+                      <div class="col-md-4">
+                        <label for="name">Medical History</label>
+                         <div class="input-group">
+                         <span class="input-group-text"><i class="fa-solid fa-pen-to-square"></i></span>
+                        <textarea class="form-control" placeholder="Describe Medical History" required></textarea>
+                       </div>
+                      </div>
+
+                      <div class="col-md-4">
+                        <label for="name">Additional Informatin</label>
+                         <div class="input-group">
+                         <span class="input-group-text"><i class="fa-solid fa-pen"></i></span>
+                        <textarea class="form-control" placeholder="Enter Additional Details" required></textarea>
+                       </div>
+                      </div>
+                      </div>
+                   
+                      <!--Fourth Row-->
+                      <div class="row g-3 mb-4">
+                        <div class="col-md-3">
+                            <button type="submit" class="btn w-100"> Save <i class="fa-solid fa-floppy-disk"></i></button>
+                        </div>
+        
+                        <div class="col-md-3">
+                            <button type="submit" class="btn w-100"> Update <i class="fa-solid fa-pen-to-square"></i></button>
+                        </div>
+        
+                        <div class="col-md-3">
+                            <button type="submit" class="btn  w-100"> Delete <i class="fa-solid fa-trash"></i></button>
+                        </div>
+        
+                        <div class="col-md-3">
+                            <button type="submit" class="btn w-100"> Search <i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                     </div>   
+                  </form>
+                  </div>
+                  </div>
+
+           
+                       <!-- Blood Donors List -->
+
+                  <div class="card mt-5">
+
+                    <div class="card-header">
+                      <h4> List Of Somali Blood Donors </h4>
+                    </div>
+                   
+                    <div class="card-body">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Age</th>
+                                    <th>Gender</th>
+                                    <th>Phone Number</th>
+                                    <th>Blood Group</th>
+                                    <th>Donation Date</th>
+                                    </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Fatima Ali</td>
+                                    <td>22</td>
+                                    <td>Female</td>
+                                    <td>09-567843</td>
+                                    <td>A+</td>
+                                    <td>2024-11-7</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Ahemd Omer</td>
+                                    <td>28</td>
+                                    <td>Male</td>
+                                    <td>09-777843</td>
+                                    <td>A-</td>
+                                    <td>2024-12-17</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Najma Yasin</td>
+                                    <td>19</td>
+                                    <td>Female</td>
+                                    <td>09-623843</td>
+                                    <td>O+</td>
+                                    <td>2024-10-2</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Ismail Mustafa</td>
+                                    <td>35</td>
+                                    <td>Male</td>
+                                    <td>09-457843</td>
+                                    <td>B+</td>
+                                    <td>2024-12-4</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Fardous Mohamed</td>
+                                    <td>26</td>
+                                    <td>Female</td>
+                                    <td>09-467854</td>
+                                    <td>A+</td>
+                                    <td>2024-10-27</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Khalid Ali</td>
+                                    <td>20</td>
+                                    <td>Male</td>
+                                    <td>09-654843</td>
+                                    <td>O-</td>
+                                    <td>2024-12-5</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Sara Malik</td>
+                                    <td>34</td>
+                                    <td>Female</td>
+                                    <td>09-748923</td>
+                                    <td>AB-</td>
+                                    <td>2024-8-7</td>
+                                </tr>
+                            </tbody>     
+             
+     
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

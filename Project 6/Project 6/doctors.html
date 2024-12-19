@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Registration</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/97cdf934e8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+
+<body>
+     
+         
+
+            <!-- Doctor Registration Form -->
+           
+         <div class="card">
+
+            <div class="card-header">
+                <h4> Add New Doctor </h4>
+            </div>
+
+            <div class="card-body">
+
+                <form class="DoctorForm">
+                   
+                    <!--First Row-->
+
+                    <div class="row g-3 mb-4">
+                     <div class="col-md-4">
+                      <label for="name">Full Name</label>
+                       <div class="input-group">
+                       <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+                      <input type="text" class="form-control" placeholder="Enter Full Name" required>
+                     </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="name">Email</label>
+                         <div class="input-group">
+                         <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
+                        <input type="text" class="form-control" placeholder="Enter Email" required>
+                       </div>
+                      </div>
+
+                      <div class="col-md-4">
+                        <label for="name">Title</label>
+                         <div class="input-group">
+                         <span class="input-group-text"><i class="fa-solid fa-suitcase"></i></span>
+                        <input type="text" class="form-control" placeholder="Enter Title" required>
+                       </div>
+                      </div>
+                      </div>
+                 
+                  <!--Second Row-->
+                  
+                  <div class="row g-3 mb-4">
+                    <div class="col-md-4">
+                        <label for="name">Department</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fa-solid fa-building"></i></span>
+                            <select id="Department" class="form-select">
+                                <option>Department</option>
+                                <option>Laboratory</option>
+                                <option>Radiology</option>
+                                <option>Pediatrics</option>
+                                <option>Neurology</option>
+                                <option>Cardiology</option>    
+                                <option>Physical Therapy</option>   
+                                <option>Dermatology</option>             
+                                </select>             
+                             </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label for="name">Experience</label>
+                             <div class="input-group">
+                             <span class="input-group-text"><i class="fa-solid fa-book-bookmark"></i></span>
+                            <input type="text" class="form-control" placeholder="Enter Experience In Years" required>
+                           </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="name">Phone Number</label>
+                             <div class="input-group">
+                             <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
+                            <input type="text" class="form-control" placeholder="Enter Number" required>
+                           </div>
+                          </div>
+                          </div>
+                 
+                  <!--Third Row-->
+                  
+                  <div class="row g-3 mb-4">
+                    <div class="col-md-4">
+                        <label for="name">Degree</label>
+                         <div class="input-group">
+                         <span class="input-group-text"><i class="fa-solid fa-user-graduate"></i></span>
+                        <input type="text" class="form-control" placeholder="Enter Degree" required>
+                       </div>
+                      </div>
+
+                      <div class="col-md-4">
+                        <label for="name">Fees</label>
+                         <div class="input-group">
+                         <span class="input-group-text"><i class="fa-solid fa-dollar-sign"></i></span>
+                        <input type="text" class="form-control" placeholder="Enter Fees" required>
+                       </div>
+                      </div>
+
+                      <div class="col-md-4">
+                        <label for="name">Profile Photo</label>
+                         <div class="input-group">
+                         <span class="input-group-text"><i class="fa-solid fa-image"></i></span>
+                        <input type="file" class="form-control" placeholder="Choose File" required>
+                       </div>
+                      </div>
+                      </div>
+
+                      <div class="row g-3 mb-4">
+                        <div class="col-md-3">
+                            <button type="submit" class="btn w-100"> Save <i class="fa-solid fa-floppy-disk"></i></button>
+                        </div>
+        
+                        <div class="col-md-3">
+                            <button type="submit" class="btn w-100"> Update <i class="fa-solid fa-pen-to-square"></i></button>
+                        </div>
+        
+                        <div class="col-md-3">
+                            <button type="submit" class="btn w-100"> Delete <i class="fa-solid fa-trash"></i></button>
+                        </div>
+        
+                        <div class="col-md-3">
+                            <button type="submit" class="btn w-100"> Search <i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                     </div>
+                </form>
+             </div>
+            </div>
+
+            <!--Doctores List-->
+
+            <div class="card mt-5">
+                <div class="card-header">
+                    <h5>List Of Doctors</h5>
+                </div>
+                <div class="card-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                        <th>#</th>
+                           <th>Name</th>
+                           <th>Email</th>
+                           <th>Title</th>
+                           <th>Department</th>
+                           <th>Experience</th>
+                           <th>Number</th>
+                           <th>Fees</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Ismail Mohamed</td>
+                            <td>ismail@gmail.com</td>
+                            <td>Dermatologist</td>
+                            <td>Dermatology</td>
+                            <td>5 Years</td>
+                            <td>09-789096</td>
+                            <td>$500</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Sara Ahmed</td>
+                            <td>drsara12@gmail.com</td>
+                            <td>Neurologist</td>
+                            <td>Neurology</td>
+                            <td>8 Years</td>
+                            <td>09-678934</td>
+                            <td>$900</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Mustafa Sharif</td>
+                            <td>mustafa40@gmail.com</td>
+                            <td>Cardiologist</td>
+                            <td>Cardiology</td>
+                            <td>15 Years</td>
+                            <td>09-569096</td>
+                            <td>$1400</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Asma Omer</td>
+                            <td>iam_asma0@gmail.com</td>
+                            <td>Physiatrist</td>
+                            <td>Physical Therapy</td>
+                            <td>3 Years</td>
+                            <td>09-489045</td>
+                            <td>$400</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+            </div> 
+    
+</body>
+</html>
