@@ -15,5 +15,8 @@ This repository contains all the projects I created during the Innovation Hub at
   Click <a href="https://github.com/itsfatima1/CityCot-Innovation-Hub/tree/a9ecf4d8375bf0d9fcb56b1adb48708d121b4c4b/Project4">Here</a></li><br>
   
   <li> Project 5: Registration Form<br>
-  Click <a href="https://github.com/itsfatima1/CityCot-Innovation-Hub/tree/a9ecf4d8375bf0d9fcb56b1adb48708d121b4c4b/Project5">Here</a></li>
+  Click <a href="https://github.com/itsfatima1/CityCot-Innovation-Hub/tree/a9ecf4d8375bf0d9fcb56b1adb48708d121b4c4b/Project5">Here</a></li><br>
+
+  <li> Project 6: Hospital Management System<br>
+  Click <a href="https://github.com/itsfatima1/CityCot-Innovation-Hub/tree/44642c3205273a9094aab0186ea495837b88a71e/Project%206/Project%206">Here</a></li>
 </ul>
