@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Questrial&display=swap');
+body {
+background: url(imgs/SL-113022-54210-20.jpg) no-repeat;
+background-size: cover;
+background-position: center;
+}
+.container{
+    background: transparent;
+}
+.header{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 100;
+}
+.card {
+border-radius: 9px;
+background-color: #ffffff;
+margin-top: 50px;
+border: 0px;
+}
+.card-header{
+    background-color: #eb1325;
+    color: #ffffff;
+    border-radius: 9px;
+}
+.btn {
+    background-color: #0A3981;
+    color: #ffffff;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.success-message{
+  padding: 10px;
+  color: #72b049; 
+  border-radius: 5px; 
+  font-size: 17px; 
+}
+.error-message{
+    padding: 10px;
+    color: #c71717; 
+    border-radius: 5px; 
+    font-size: 17px;
+}
+.input-group-text{
+    color: #0A3981;
+}
