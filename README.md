@@ -1,5 +1,5 @@
 # CityCot-Innovation-Hub
-This repository contains all the projects I created during the Innovation Hub at CityCot University, using languages and frameworks such as HTML, CSS, and Bootstrap for improving my skills.
+This repository contains all the projects I created during the Innovation Hub at CityCot University, using languages and frameworks such as HTML, CSS, Bootstrap, PHP and MySQL for improving my skills.
 <br>
 <ul>
   <li> Project 1: HTML + CSS Simple Webpage<br>
