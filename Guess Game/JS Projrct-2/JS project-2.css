@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(imgs/greengame.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#game {
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+    text-align: center;
+    width: 400px;
+    margin: 50px auto;
+    margin-bottom: 150px;
+}
+#text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(6, 113, 77);
+    margin-top: 30px;
+}
+#guess {
+   justify-content: center;
+   align-items: center;
+    margin-top: 20px;
+    border-radius: 8px;
+    border-color: rgb(6, 113, 77);
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(6, 113, 77);
+}
+#btn {
+    color: white;
+    font-size: 15px;
+    background-color: rgb(6, 113, 77);
+    border-radius: 8px;
+    border: 0px;
+    padding: 9px;
+    width: 100px;
+    cursor: pointer;
+}
+#btn:hover {
+    background-color: rgb(82, 194, 156);
+    color: rgb(56, 72, 66);
+}
