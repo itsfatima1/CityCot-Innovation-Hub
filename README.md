@@ -27,6 +27,6 @@ This repository contains all the projects I created during the Innovation Hub at
   Click <a href="(https://github.com/itsfatima1/CityCot-Innovation-Hub/tree/main/Calculator/JS%20Project-1)">Here</a></li><br>
 
   <li> Project 9: Guess Game<br>
-  Click <a href="[(https://github.com/itsfatima1/CityCot-Innovation-Hub/tree/main/Calculator/JS%20Project-1)]">Here</a></li><br>
+  Click <a href="[[(https://github.com/itsfatima1/CityCot-Innovation-Hub/tree/main/Calculator/JS%20Project-1)]](https://github.com/itsfatima1/CityCot-Innovation-Hub/tree/main/Guess%20Game)">Here</a></li><br>
 
 </ul>
