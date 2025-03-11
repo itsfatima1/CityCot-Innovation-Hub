@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(imgs/cute-pink\ wallpaper.jpg);
+}
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C599B6;
+    border-radius: 15px;
+    max-width: 400px;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px #6e5466;
+    align-items: center;
+}
+#display{
+    width: 500px;
+    padding: 5px;
+    font-size: 4rem;
+    text-align: left;
+    border: none;
+    background-color: #c9a9be;
+    color: #FFF7F3;
+}
+#calculator-keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: none;
+    background-color: #E6B2BA;
+    color: #FFF7F3;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+}
+button:hover{
+    background-color: #e6c1c7;
+}
+button:active{
+    background-color: #e9cfd4;
+}
+.operator-btn{
+    background-color: #E53888;
+}
+.operator-btn:hover{
+    background-color: #e7599b;
+}
+.operator-btn:active{
+    background-color: #e770a7;
+}
